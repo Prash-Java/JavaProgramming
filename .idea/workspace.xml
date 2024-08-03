@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdc9f056-90c9-47e9-8ed3-5ffaf5a0c515" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaLeetCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_problems/CountOfDigitInNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_problems/DetermineCharCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_problems/ReverseNumber.java" afterDir="false" />
+    <list default="true" id="fdc9f056-90c9-47e9-8ed3-5ffaf5a0c515" name="Changes" comment="Java Practice Programs - Day 1">
+      <change afterPath="$PROJECT_DIR$/src/basic_problems/BasicCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BasicCalculator.executor": "Debug",
     "Application.CountOfDigitInNumber.executor": "Run",
     "Application.DetermineCharCase.executor": "Run",
     "Application.ReverseNumber.executor": "Run",
@@ -51,7 +44,20 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CountOfDigitInNumber">
+  <component name="RunManager" selected="Application.BasicCalculator">
+    <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_problems.BasicCalculator" />
+      <module name="JavaLeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountOfDigitInNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic_problems.CountOfDigitInNumber" />
       <module name="JavaLeetCode" />
@@ -93,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BasicCalculator" />
         <item itemvalue="Application.CountOfDigitInNumber" />
         <item itemvalue="Application.ReverseNumber" />
         <item itemvalue="Application.DetermineCharCase" />
@@ -108,6 +115,21 @@
       <option name="presentableId" value="Default" />
       <updated>1722703443557</updated>
     </task>
+    <task id="LOCAL-00001" summary="Java Practice Programs - Day 1">
+      <option name="closed" value="true" />
+      <created>1722706063468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722706063468</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Java Practice Programs - Day 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Practice Programs - Day 1" />
   </component>
 </project>
