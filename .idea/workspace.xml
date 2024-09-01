@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdc9f056-90c9-47e9-8ed3-5ffaf5a0c515" name="Changes" comment="Java Practice Programs - Day 3">
-      <change afterPath="$PROJECT_DIR$/src/basic_problems/MainMethodBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searchalgorithms/linearsearchalgorithms/FindMaxElementInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searchalgorithms/linearsearchalgorithms/FindMinElementInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searchalgorithms/linearsearchalgorithms/LinearSearchAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searchalgorithms/linearsearchalgorithms/LinearSearchAlgoInRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searchalgorithms/linearsearchalgorithms/SearchGivenCharInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fdc9f056-90c9-47e9-8ed3-5ffaf5a0c515" name="Changes" comment="Java Practice Programs - Day 5">
+      <change afterPath="$PROJECT_DIR$/src/searchalgorithms/twodimentionalarrays/LinearSearchInTwoDimArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/TwoDimArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/TwoDimArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,10 +49,12 @@
     "Application.BasicCalculator.executor": "Run",
     "Application.CountOfDigitInNumber.executor": "Run",
     "Application.DetermineCharCase.executor": "Run",
+    "Application.FindMaxElementInArray.executor": "Run",
     "Application.FindMinElementInArray.executor": "Run",
     "Application.LinearSearch.executor": "Run",
     "Application.LinearSearchAlgo.executor": "Run",
     "Application.LinearSearchAlgoInRange.executor": "Run",
+    "Application.LinearSearchInTwoDimArrays.executor": "Run",
     "Application.MainMethodBehaviour.executor": "Run",
     "Application.ReverseNumber.executor": "Run",
     "Application.SearchGivenCharInString.executor": "Run",
@@ -72,7 +67,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FindMaxElementInArray">
+  <component name="RunManager" selected="Application.LinearSearchInTwoDimArrays">
     <configuration name="FindMaxElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="searchalgorithms.linearsearchalgorithms.FindMaxElementInArray" />
       <module name="JavaLeetCode" />
@@ -99,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearchAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searchalgorithms.linearsearchalgorithms.LinearSearchAlgo" />
+    <configuration name="LinearSearchAlgoInRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searchalgorithms.linearsearchalgorithms.LinearSearchAlgoInRange" />
       <module name="JavaLeetCode" />
       <extension name="coverage">
         <pattern>
@@ -112,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearchAlgoInRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searchalgorithms.linearsearchalgorithms.LinearSearchAlgoInRange" />
+    <configuration name="LinearSearchInTwoDimArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searchalgorithms.twodimentionalarrays.LinearSearchInTwoDimArrays" />
       <module name="JavaLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searchalgorithms.linearsearchalgorithms.*" />
+          <option name="PATTERN" value="searchalgorithms.twodimentionalarrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinearSearchInTwoDimArrays" />
         <item itemvalue="Application.FindMaxElementInArray" />
         <item itemvalue="Application.FindMinElementInArray" />
         <item itemvalue="Application.SearchGivenCharInString" />
         <item itemvalue="Application.LinearSearchAlgoInRange" />
-        <item itemvalue="Application.LinearSearchAlgo" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723998000936</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Java Practice Programs - Day 5">
+      <option name="closed" value="true" />
+      <created>1725204969859</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725204969859</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -198,6 +201,7 @@
     <MESSAGE value="Java Practice Programs - Day 1" />
     <MESSAGE value="Java Practice Programs - Day 2" />
     <MESSAGE value="Java Practice Programs - Day 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Practice Programs - Day 3" />
+    <MESSAGE value="Java Practice Programs - Day 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Practice Programs - Day 5" />
   </component>
 </project>
