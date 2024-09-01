@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdc9f056-90c9-47e9-8ed3-5ffaf5a0c515" name="Changes" comment="Java Practice Programs - Day 5">
-      <change afterPath="$PROJECT_DIR$/src/searchalgorithms/twodimentionalarrays/LinearSearchInTwoDimArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searchalgorithms/twodimentionalarrays/FindMaxElementInTwoDimArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searchalgorithms/twodimentionalarrays/FindMinElementInTwoDimArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searchalgorithms/twodimentionalarrays/IncrementEachElementValueInTwoDimArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +52,11 @@
     "Application.CountOfDigitInNumber.executor": "Run",
     "Application.DetermineCharCase.executor": "Run",
     "Application.FindMaxElementInArray.executor": "Run",
+    "Application.FindMaxElementInTwoDimArrays.executor": "Run",
     "Application.FindMinElementInArray.executor": "Run",
+    "Application.FindMinElementInTwoDimArrays.executor": "Run",
+    "Application.IncrementEachElementValueByOneInTwoDimArrays.executor": "Run",
+    "Application.IncrementEachElementValueInTwoDimArrays.executor": "Run",
     "Application.LinearSearch.executor": "Run",
     "Application.LinearSearchAlgo.executor": "Run",
     "Application.LinearSearchAlgoInRange.executor": "Run",
@@ -67,13 +73,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LinearSearchInTwoDimArrays">
-    <configuration name="FindMaxElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searchalgorithms.linearsearchalgorithms.FindMaxElementInArray" />
+  <component name="RunManager" selected="Application.IncrementEachElementValueInTwoDimArrays">
+    <configuration name="FindMaxElementInTwoDimArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searchalgorithms.twodimentionalarrays.FindMaxElementInTwoDimArrays" />
       <module name="JavaLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searchalgorithms.linearsearchalgorithms.*" />
+          <option name="PATTERN" value="searchalgorithms.twodimentionalarrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searchalgorithms.linearsearchalgorithms.FindMinElementInArray" />
+    <configuration name="FindMinElementInTwoDimArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searchalgorithms.twodimentionalarrays.FindMinElementInTwoDimArrays" />
       <module name="JavaLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searchalgorithms.linearsearchalgorithms.*" />
+          <option name="PATTERN" value="searchalgorithms.twodimentionalarrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +100,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearchAlgoInRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searchalgorithms.linearsearchalgorithms.LinearSearchAlgoInRange" />
+    <configuration name="IncrementEachElementValueByOneInTwoDimArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searchalgorithms.twodimentionalarrays.IncrementEachElementValueByOneInTwoDimArrays" />
       <module name="JavaLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searchalgorithms.linearsearchalgorithms.*" />
+          <option name="PATTERN" value="searchalgorithms.twodimentionalarrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncrementEachElementValueInTwoDimArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searchalgorithms.twodimentionalarrays.IncrementEachElementValueInTwoDimArrays" />
+      <module name="JavaLeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searchalgorithms.twodimentionalarrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,26 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchGivenCharInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searchalgorithms.linearsearchalgorithms.SearchGivenCharInString" />
-      <module name="JavaLeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="searchalgorithms.linearsearchalgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IncrementEachElementValueInTwoDimArrays" />
+        <item itemvalue="Application.IncrementEachElementValueByOneInTwoDimArrays" />
+        <item itemvalue="Application.FindMaxElementInTwoDimArrays" />
+        <item itemvalue="Application.FindMinElementInTwoDimArrays" />
         <item itemvalue="Application.LinearSearchInTwoDimArrays" />
-        <item itemvalue="Application.FindMaxElementInArray" />
-        <item itemvalue="Application.FindMinElementInArray" />
-        <item itemvalue="Application.SearchGivenCharInString" />
-        <item itemvalue="Application.LinearSearchAlgoInRange" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725204969859</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Java Practice Programs - Day 5">
+      <option name="closed" value="true" />
+      <created>1725206559124</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725206559124</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
